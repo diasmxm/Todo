@@ -5,7 +5,8 @@
   "main": "code.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start webpack serve && start webpack watch"
+    "start": "webpack watch",
+    "server": "webpack serve"
   },
   "keywords": [
     "todo",
@@ -20,6 +21,7 @@
     "webpack-cli": "^4.9.1"
   },
   "devDependencies": {
+    "css-loader": "^6.5.0",
     "webpack-dev-server": "^4.3.1"
   }
 }
